@@ -1,17 +1,153 @@
-/* Error: Expected expression.
- *     ,
- * 118 |             font-family: ;
- *     |                          ^
- *     '
- *   css\app.scss 118:26  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a     \2577 \a 118 \2502              font-family: ;\d\a     \2502                           ^\a     \2575 \a   css\\app.scss 118:26  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: auto;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla";
+}
+
+a {
+  text-decoration: none;
+}
+
+.sub-menu {
+  background-color: rgba(180, 180, 180, 0.3411764706);
+  padding: 10px 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.contact h1 {
+  font-size: 14px;
+  color: #93a1a7;
+  font-family: "Karla";
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
+.social a:first-child {
+  margin-right: 58px;
+}
+.social a {
+  font-size: 14px;
+  color: #93a1a7;
+  font-family: "Karla";
+  text-transform: uppercase;
+  text-align: center;
+}
+.social .img-phone {
+  text-align: center;
+  font-size: 25px;
+  margin-right: 3px;
+  width: 13px;
+  height: 21px;
+  color: wheat;
+}
+.social .img-mail {
+  text-align: center;
+  font-size: 25px;
+  margin-right: 3px;
+  width: 20px;
+  height: 15px;
+  color: wheat;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+li a {
+  font-family: "Karla";
+  font-size: 15px;
+  color: #93a1a7;
+}
+li a :hover {
+  color: #23282f;
+}
+
+ul .btn {
+  font-size: 15px;
+  border-radius: 19px;
+  background-color: #29c2e1;
+  color: white;
+  font-family: "Karla";
+  margin-left: 33px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.make-your-status {
+  margin-top: 90px;
+}
+
+.text-status h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #23282f;
+}
+.text-status p {
+  font-size: 14px;
+  color: #23282f;
+  padding-top: 9px;
+}
+.text-status p :first-child {
+  font-size: 18px;
+  padding-top: 0 !important;
+}
+
+.for-img {
+  width: 585px;
+  height: 300px;
+}
+.for-img img {
+  max-width: 100%;
+}
+
+.first h4 {
+  font-size: 20px;
+  color: #23282f;
+}
+.first p {
+  font-size: 14px;
+  color: #23282f;
+}
+
+@media (max-width: 992px) {
+  .sub-menu {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 39px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1170px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
