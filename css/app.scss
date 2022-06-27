@@ -2,17 +2,13 @@
 
 * {
     box-sizing: border-box;
-    margin: auto;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Karla";
-}
-.logo{
+
+.logo {
     justify-content: start;
 }
+
 a {
     text-decoration: none;
 }
@@ -104,14 +100,17 @@ ul {
         padding-right: 26px;
     }
 }
-.carousel-caption{
-    h1{
+
+.carousel-caption {
+    h1 {
         font-size: 48px;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 }
+
 .make-your-status {
     margin-top: 90px;
 }
@@ -127,26 +126,34 @@ ul {
         font-size: 14px;
         color: #23282f;
         padding-top: 9px;
+
         :first-child {
             font-size: 18px;
             padding-top: 0 !important;
         }
     }
 }
-.for-img{
-            width: 585px;
+.ms-auto{
+    margin-left: auto;
+}
+.for-img {
+    width: 585px;
     height: 300px;
-    img{
+    max-width: 100%;
+
+    img {
         max-width: 100%;
     }
-    
+
 }
-.first{
-    h4{
+
+.first {
+    h4 {
         font-size: 20px;
-        color: #23282f; 
+        color: #23282f;
     }
-    p{
+
+    p {
         font-size: 14px;
         color: #23282f;
     }
