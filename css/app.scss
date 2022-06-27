@@ -10,7 +10,9 @@ body {
     padding: 0;
     font-family: "Karla";
 }
-
+.logo{
+    justify-content: start;
+}
 a {
     text-decoration: none;
 }
@@ -102,7 +104,14 @@ ul {
         padding-right: 26px;
     }
 }
-
+.carousel-caption{
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
 .make-your-status {
     margin-top: 90px;
 }
@@ -142,6 +151,7 @@ ul {
         color: #23282f;
     }
 }
+
 
 
 
