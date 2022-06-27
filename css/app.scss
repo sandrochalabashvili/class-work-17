@@ -2,6 +2,9 @@
 
 * {
     box-sizing: border-box;
+    margin: auto;
+}
+body {
     margin: 0;
     padding: 0;
 }
@@ -35,9 +38,11 @@ a {
     align-items: center;
     height: 100%;
     justify-content: flex-end;
-    a:first-child{
+
+    a:first-child {
         margin-right: 58px;
     }
+
     a {
         font-size: 14px;
         color: #93a1a7;
@@ -45,7 +50,8 @@ a {
         text-transform: uppercase;
         text-align: center;
     }
-    .img-phone{
+
+    .img-phone {
         text-align: center;
         font-size: 25px;
         margin-right: 3px;
@@ -53,13 +59,84 @@ a {
         height: 21px;
         color: wheat;
     }
-    .img-mail{
+
+    .img-mail {
         text-align: center;
         font-size: 25px;
         margin-right: 3px;
         width: 20px;
         height: 15px;
         color: wheat;
+    }
+}
+
+.navbar {
+    padding: 15px;
+}
+
+li {
+    a {
+        font-family: "Karla";
+        font-size: 15px;
+        color: #93a1a7;
+
+        :hover {
+            color: #23282f;
+        }
+    }
+}
+
+ul {
+    .btn {
+        font-size: 15px;
+        border-radius: 19px;
+        background-color: #29c2e1;
+        color: #ffff;
+        font-family: "Karla";
+        margin-left: 33px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
+
+.make-your-status {
+    margin-top: 90px;
+}
+
+.text-status {
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #23282f;
+    }
+
+    p {
+        :first-child {
+            font-size: 18px;
+            font-family: ;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .sub-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: 39px;
     }
 }
 
@@ -73,4 +150,5 @@ a {
     .container-xxl {
         max-width: 1170px;
     }
+
 }
