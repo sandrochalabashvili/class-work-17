@@ -393,6 +393,10 @@ ul .btn {
   }
 }
 @media (max-width: 992px) {
+  .text-color {
+    text-align: center;
+  }
+
   .sub-menu {
     display: none;
   }
