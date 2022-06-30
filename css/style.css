@@ -167,7 +167,6 @@ ul .btn {
 }
 
 .carusel-text {
-  height: 466px;
   background-color: #e5eef0;
 }
 
@@ -200,10 +199,10 @@ ul .btn {
   font-size: 15px;
   color: #f5a24c;
   margin-left: 30px;
+  margin-bottom: 95px;
 }
 
-.carousel-inner {
-  height: 466px;
+.carousel-height {
   justify-content: center;
 }
 
@@ -213,10 +212,186 @@ ul .btn {
   border-radius: 50%;
 }
 
-.carousel-item {
+.distance {
   margin-top: 195px;
 }
 
+.carousel-inner {
+  overflow: unset;
+}
+
+.img-shape-2 {
+  margin-right: 30px;
+}
+
+.text-features {
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+.text-features h1 {
+  font-weight: bold;
+  font-family: "Karla";
+  font-size: 30px;
+  color: #23282f;
+}
+.text-features p {
+  font-family: "Karla";
+  font-size: 18px;
+  color: #23282f;
+}
+
+.card-btn {
+  text-align: center;
+}
+.card-btn .btn {
+  font-size: 15px;
+  border-radius: 19px;
+  background-color: #29c2e1;
+  color: white;
+  font-family: "Karla";
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.for-border-radius {
+  background-color: #ffffff;
+  border: 1px solid #e6edee;
+  box-shadow: 35px 0 17px -4px #e8edf0;
+}
+
+.personal-line {
+  width: 34px;
+  height: 1px;
+  background-color: #f7931d;
+  margin-bottom: 22px;
+}
+
+.div-for-muve {
+  text-align: center;
+}
+
+.text {
+  margin-top: 35px;
+}
+.text h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.text p {
+  color: #65686e;
+  font-size: 18px;
+}
+.text p span {
+  color: #f7931d;
+}
+
+.text-p-business {
+  margin-top: 50px;
+  margin-bottom: 95px;
+  font-size: 15px !important;
+}
+
+.card-btn-2 {
+  margin-bottom: 35px !important;
+}
+
+.div-box-for-margin {
+  margin-bottom: 100px;
+}
+
+.for-bacground {
+  background-color: #e5eef0;
+}
+
+.for-img-and-width {
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  border: 1px solid #e6edee;
+  box-shadow: 35px 0 17px -4px #c2c2c2;
+  border-radius: 0;
+}
+
+.card-title {
+  font-family: "Karla";
+  color: #23282f;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: "Karla";
+  color: #f69b37;
+}
+
+.p-h5-text {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.text-h-center {
+  text-align: center;
+}
+.text-h-center h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+.text-h-center h1 span {
+  color: #f5a24c;
+}
+.text-h-center p {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #59686c;
+}
+
+.box-btn {
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.box-btn .btn-left {
+  margin-right: 30px;
+}
+
+.text-color h3 {
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #23282f;
+}
+.text-color h5 {
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #93a1a7;
+}
+
+.input-group-text {
+  background-color: #29c2e1;
+  color: white;
+}
+
+.for-radius {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 576px) {
+  .distance {
+    margin-top: 20px;
+    padding-bottom: 45px;
+  }
+
+  .carousel-height {
+    max-width: 100%;
+  }
+
+  .cebb {
+    text-align: center;
+  }
+}
 @media (max-width: 992px) {
   .sub-menu {
     display: none;
@@ -224,6 +399,11 @@ ul .btn {
 
   .for-img {
     margin-bottom: 25px;
+  }
+
+  .distance {
+    margin-top: 20px;
+    padding-bottom: 45px;
   }
 
   .for-btn .btn {
