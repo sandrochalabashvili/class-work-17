@@ -233,6 +233,7 @@ ul .btn {
   font-family: "Karla";
   font-size: 30px;
   color: #23282f;
+  padding-top: 100px;
 }
 .text-features p {
   font-family: "Karla";
@@ -376,6 +377,45 @@ ul .btn {
 
 .for-radius {
   margin-bottom: 100px;
+}
+
+.tranparent {
+  border: 1px solid #e6edee;
+  border-left: transparent;
+  border-right: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.triagle-flex {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  border: 1px solid #e6edee;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+
+.triagle {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: 15px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 85px solid #29C2E1;
+  margin-right: -30px;
+  z-index: 99999;
+}
+
+.second-triagle {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F79B38;
 }
 
 @media (max-width: 576px) {
