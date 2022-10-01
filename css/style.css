@@ -95,6 +95,9 @@ ul .btn {
   padding-right: 26px;
 }
 
+.carousel-caption {
+  top: 50%;
+}
 .carousel-caption h1 {
   font-size: 48px;
 }
