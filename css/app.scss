@@ -248,6 +248,7 @@ ul {
     img {
         width: 130px;
         height: 130px;
+        max-width: 100%;
         border-radius: 50%;
     }
 }
@@ -263,7 +264,11 @@ ul {
 .img-shape-2 {
     margin-right: 30px;
 }
-
+.for-team-padding{
+    h1{
+        padding-top: 70px;
+    }
+}
 .text-features {
     margin-top: 95px;
     margin-bottom: 55px;
@@ -273,7 +278,6 @@ ul {
         font-family: "Karla";
         font-size: 30px;
         color: #23282f;
-        padding-top: 100px;
     }
 
     p {
